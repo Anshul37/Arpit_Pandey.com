@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Website</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+    <link href="webisite.css" rel="stylesheet">
+    <script src="./script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet"> -->
+
+</head>
+<body>
+
+<section>
+  <nav class="navbar bg-body-tertiary fixed-top shadow-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-5" href="#"> <strong><i class="bi bi-person-circle"></i> Arpit Pandey</strong></a>
+      <button class="navbar-toggler me-md-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header" style="background-color: rgb(235, 247, 247)">
+          <h5 class="offcanvas-title " id="offcanvasNavbarLabel">Arpit Pandey</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Connect">Connect</a>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+</section>
+
+
+
+<!-- Home section go here -->
+<section id="home">
+  <div class="container ">
+    <div class="row   ">
+    <div class="col-xl-12 rounded-3 header-paragraph ">
+      <div class="description  ">
+        <!-- <img src="home-img-photo.jpg" class="rounded-3 mb-3" width="75%" alt="Profile Image"> -->
+        <h1  >
+          Hello, I'm <strong>Arpit</strong>
+        </h1>
+        
+          <!-- <div class="text-center align-content-center  mt-5 ">
+          <p> -->
+            <h3 class="text-light mt-3"><strong>"</strong>I am results-driven software engineer with a knack for turning complex ideas into elegant solutions.
+              From coding to debugging, I thrive on the challenges of creating seamless, efficient software.
+              Explore my portfolio to see the code that powers my passion for innovation<strong>"</strong></h3>
+          </div>
+          <div class="text-center align-bottom mt-5 mb-5">
+            
+            <button class="btn btn-outline-light btn-md  bg-light" ><a href="#About" >Know More <i class="bi bi-search"></i></a></button>     
+            <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap" >Reach Me <i class="bi bi-chat-text"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About section go here -->
+
+    <section id="About">
+        <div class="container ">
+            <div class="bg-gradient">
+              <div class="row bg-secondary-subtle  rounded-3">
+                <div class="col-md-6 mt-3">
+                    <div class="text-lg-center">
+                        <img src="/Assests/new-Profile.jpeg" class="rounded-3 mb-3" width="80%" alt="Profile Image">
+                    </div>
+                      </div>
+                      <div class="col-sm-6 bg-secondary-subtle  mt-5">
+                    
+                        <h2> About Me</h2>
+                        <p>
+                          
+                          I am an experienced software engineer with a strong foundation in computer science principles and programming languages. 
+                          I have a proven track record of successfully designing, developing, and deploying software applications. 
+                          I am passionate about building innovative solutions to challenging problems, and I am committed to creating software that is both functional and intuitive.
+                          Arpit's educational background includes a Bachelor of Engineering in Electronics and Telecommunication from the University of Pune, where he graduated with a Major CGPA of 8.7/10.0. 
+                          <br> 
+                          Currently at Kayadhu Software Pvt Ltd I am getting provided with valuable hands-on experience in developing web applications and contribute to UI side and backend as well. 
+                          I also demonstrated my problem-solving skills by developing a software application to help students check their BMI index and also by creating my own website. Additionally, I collaborated with a team of engineers to design and implement new features for an existing software product. <br> 
+                          I am highly motivated and results-oriented individual with a passion for learning and growing. I possesses strong problem-solving and analytical skills, and I am a team player. 
+                          I am eager to contribute my skills and expertise to challenging projects, and I am confident in my ability to make significant contributions to the tech industry.
+                      <br>
+                          I'm technical skills include proficiency in Python, Java, C++, Html, CSS, Bootstrap, JavaScript, Linux, SQL, Object-Oriented Programming, Data Structures, Git, Visual Studio Code, AWS Fundamentals, Agile development methodologies, and Microsoft Office. His diverse skillset and adaptability make him a valuable asset to any organization.</p>
+                            <div>
+                                <div class="Resume rounded-3">
+                                    <a href="https://drive.google.com/file/d/1VFExxEupWCZiVnu8l8g92_bf6z3qgtik/view?usp=sharing"  class="bi bi-filetype-pdf" target="_blank" download="">My Resume</i></a>
+                                </div>
+                            </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience section go here -->
+    <section id="Experience">
+        <div class="container rounded-3 shadow p-3 mt-3">
+            <div class="align-content-center  text-center">
+                <h1 class="mb-5">Experience</h1>
+                <ul>
+                    <li style="--accent-color:#41516C;">
+                      <div class="date">Mar 2023 - Present </div>
+                      <!-- <div class="title"> Software Engineer Intern</div> -->
+                      <div class="descr p-3 shadow"><br> <h3> Software Engineer Intern</h3> <br>
+                        • Solving problem by creating innovative solution for the task. <br>
+                        • Contribute on the frontend UI aswell by MEAN stack. <br>
+                        • Working on various web technologies including HTML, CSS, JavaScript, etc. <br>
+                        • Building scalable and robust web applications using the Python-Django Web Framework. <br>
+                        • Implementing XML data files using Python Script. <br>
+                        • Working on object oriented programming methodologies using Python. <br>
+                        • Various web tools including VS Code, Git, etc. <br>
+                      </li>
+                      <li style="--accent-color:#FBCA3E">
+                        <div class="date">Dec 2022 - Feb 2023</div>
+                        <!-- <div class="title"> Associate Software Engineer</div> -->
+                        <div class="descr p-3 shadow"><br> <h3>Associate Software Engineer</h3> <br>
+                          • Good exposure to the Software Development Life Cycle (SDLC). <br>
+                          • Good exposure to programming languages and technologies like Python, Java, Linux, SQL, JavaScript, HTML, CSS,
+                          Shell scripting, AWS, Agile Methodologies.<br>
+                          • Implementation of soft skills, presentation skills, management and teamwork. <br>
+                        </div>
+                    </li>
+                    <li style="--accent-color:#E24A68">
+                      <div class="date">Jan 2021 - May 2021</div>
+                      <!-- <div class="title">Web Developer Intern</div> -->
+                      <div class="descr p-3 shadow"><br> <h3>Web Development Intern</h3> <br>• Future Ready Talent is a virtual internship platform with an opportunity to learn the in-demand Frontend  Azure cloud
+                          security skills aligned to industry needs. <br>
+                          • The program aims at make students understanding Azure fundamentals (AZ-900). <br>
+                          • Creating innovative solutions using HTML, CSS, Bootstrap, JavaScript with Microsoft Azure and deploying on GitHub pages.<br>
+                      </div>
+                  </li>
+                      <!-- <li style="--accent-color:#1B5F8C">
+                        <div class="date">2017</div>
+                        <div class="title">Title 4</div>
+                        <div class="descr">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, cumque.</div>
+                      </li>
+                      <li style="--accent-color:#4CADAD">
+                        <div class="date">2022</div>
+                        <div class="title">Title 5</div>
+                        <div class="descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, non.</div>
+                    </li> -->
+                </ul>
+              </div>
+            </div>
+        </div>
+    </section>
+              <section class="light" id="Portfolio">
+                <div class="container py-3">
+                  <div class="h1 text-center text-dark" id="pageHeaderTitle"> Projects</div>
+              
+                  <article class="postcard light blue">
+                    <a class="postcard__img_link" href="#">
+                      <img class="postcard__img" src="Assests/Web capture_23-11-2023_165256_127.0.0.1.jpeg" alt="Portfolio Project" />
+                        </a>
+                          <div class="postcard__text t-dark">
+                            <h1 class="postcard__title red"><a href="#"> Portfolio Website</a></h1>
+                            <div class="postcard__subtitle small">
+                              <!-- <time datetime="2020-05-25 12:00:00">
+                          <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                        </time> -->
+                      </div>
+                      <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">
+                      A showcase of my skills and expertise, highlighting my unique blend of creativity and technical proficiency.
+
+                      Navigate through a collection of your most compelling projects, presented in a visually striking and engaging manner.
+
+                      Experience the seamless integration of HTML, CSS, JavaScript, Apps Script, and Google sheets resulting in an interactive and user-friendly interface.
+
+                      Discover a portfolio that reflects your passion and dedication, leaving a lasting impression on potential employers and clients.
+
+                      Embrace the power of technology to showcase your talents and accomplishments, establishing yourself as a force to be reckoned with in your field.</div>
+                        <div><strong> Tech Used :  HTML, CSS, Bootstrap, JavaScript, Apps Script, and Google sheets </strong></div> 
+
+                      <ul class="postcard__tagbox">
+                        <li class="tag__item"><i class="bi bi-github mr-2 mt-5"><a href="https://github.com/Anshul37"> GitHub Repo</a></i></li>
+                        <!-- <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li> -->
+                        <li class="tag__item play red">
+                          <!-- <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a> -->
+                          <a href="#"><i class="fas fa-play bi bi-laptop mr-2"></i> Check it Out !</a>
+
+                        </li>
+                      </ul>
+                    </div>
+                  </article>
+                  <article class="postcard light red">
+                    <a class="postcard__img_link" href="#">
+                      <img class="postcard__img" src="Assests/BMI Calculator.png" alt="Image Title" />
+                        </a>
+                          <div class="postcard__text t-dark">
+                            <h1 class="postcard__title red"><a href="https://bmicalculator37.netlify.app/">BMI Calculator</a></h1>
+                            <div class="postcard__subtitle small">
+                              <!-- <time datetime="2020-05-25 12:00:00">
+                          <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                        </time> -->
+                      </div>
+                      <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">Maintain your health and fitness with this user-friendly BMI Calculator web app. 
+                      Simply enter your height and weight to instantly calculate your body mass index (BMI). Developed using HTML, CSS, and JavaScript for a seamless user experience. 
+                      Conveniently hosted on Netlify for easy access from any device.</div>
+                      <div><strong> Tech Used :  HTML, CSS, and JavaScript </strong></div> 
+
+                    <ul class="postcard__tagbox">
+                      <li class="tag__item"><i class="bi bi-github mr-2 mt-5"><a href="https://github.com/Anshul37"> GitHub Repo</a></i></li>
+                      <!-- <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li> -->
+                      <li class="tag__item play red">
+                        <!-- <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a> -->
+                        <a href="https://bmicalculator37.netlify.app/"><i class="fas fa-play bi bi-laptop mr-2"></i> Check it Out !</a>
+
+                      </li>
+                      </ul>
+                    </div>
+                  </article>
+                  <!-- <article class="postcard light green">
+                    <a class="postcard__img_link" href="#">
+                      <img class="postcard__img" src="https://picsum.photos/500/501" alt="Image Title" />
+                    </a>
+                    <div class="postcard__text t-dark">
+                      <h1 class="postcard__title green"><a href="#"> Website </a></h1>
+                      <div class="postcard__subtitle small">
+                        <time datetime="2020-05-25 12:00:00">
+                          <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                        </time> 
+                      </div>
+                      <div class="postcard__bar"></div>
+                      <div class="postcard__preview-txt">Maintain your health and fitness with this user-friendly BMI Calculator web app. 
+                        Simply enter your height and weight to instantly calculate your body mass index (BMI). Developed using HTML, CSS, and JavaScript for a seamless user experience.
+                        Conveniently hosted on Netlify for easy access from any device.
+                      </div>
+                      <ul class="postcard__tagbox">
+                        <li class="tag__item"><i class="bi bi-github mr-2 mt-5"><a href="https://github.com/Anshul37"> GitHub Repo</a></i></li>
+                        <!-- <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li> 
+                        <li class="tag__item play red">
+                          <!-- <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a> 
+                          <a href="#"><i class="fas fa-play bi bi-laptop mr-2"></i> Check it Out !</a> 
+
+                        </li>
+                      </ul>
+                    </div>
+                  </article> -->
+                  <article class="postcard light yellow">
+                    <a class="postcard__img_link" href="#">
+                      <img class="postcard__img" src="Assests/parking.jpg" alt="Parking Image" />
+                    </a>
+                    <div class="postcard__text t-dark">
+                      <h1 class="postcard__title yellow"><a href="#">IoT Car Parking System</a></h1>
+                      <div class="postcard__subtitle small">
+                        <!-- <time datetime="2020-05-25 12:00:00">
+                          <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                        </time> -->
+                      </div>
+                      <div class="postcard__bar"></div>
+                      <div class="postcard__preview-txt">Revolutionize parking with an IoT-based smart car parking system powered by Arduino Mega, NodeMCU, and ThingSpeak.
+
+                        Utilize sensors to detect vacant parking spots in real-time, providing drivers with seamless navigation and parking guidance.
+                        
+                        Eliminate parking frustration with the integration of a mobile application that displays real-time parking availability.
+                        
+                        Empower parking lot owners with efficient management tools, optimizing parking utilization and maximizing revenue.
+                        
+                        Embrace the future of smart transportation with an IoT-driven parking system that enhances efficiency and convenience.</div>
+                         <div><strong> Tech Used :  C, Arduino-Mega, Node MCU, Sensors, ThingSpeak </strong></div> 
+
+                      <ul class="postcard__tagbox">
+                        <li class="tag__item"><i class="bi bi-github mr-2 mt-5"><a href="https://github.com/Anshul37"> GitHub Repo</a></i></li>
+                        <!-- <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li> -->
+                        <li class="tag__item play red">
+                          <!-- <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a> -->
+                          <a href="#"><i class="fas fa-play bi bi-laptop mr-2"></i> Check it Out !</a>
+
+                        </li>
+                      </ul>
+                    </div>
+                  </article>
+                </div>
+              </section>
+
+    <!-- Connect section go here -->
+          <section id="Connect">
+              <div class="container">
+                  <div class="text-center">
+                      <!-- <h2>Connect</h2> -->
+                      </div>
+                  </div>
+              </div>
+          <section>
+
+
+		<footer class="footer-distributed footer-right text-bg-light">
+            <div class="container">
+                <div class=" row ">
+                    <div class="col-12 p-3">
+                        <!-- <h3>Arpit Pandey</h3> -->
+                        <div class="text-center">
+                          <h2>Let’s Connect</h2>
+                          <br>
+                        <p>
+                            "I welcome connections and collaboration!
+                              feel free to connect with me via e-mail, LinkedIn or ping me on Twitter.
+                                Looking forward to connecting with you!"
+                        </p><br>
+                        <p>
+                          Fill the form below to reach me. I'll get back to you as soon as possible.
+                        </p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Reach Me !</button>
+
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header bg-info-subtle">
+                                    <h1 class="modal-title fs-5 " id="exampleModalLabel">Let’s Connect</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body shadow-sm">
+                                    <!-- <form action="https://script.google.com/macros/s/http://127.0.0.1:5500/website.htmlexec" method="post"> -->
+                                    <form class="p-md-3"
+                                            method="POST"
+                                            action="https://script.google.com/macros/s/AKfycbzwOjmsQVu-_Qmu2RxhtZi3je5uZje_FigIpUHJMx1e2xm0_Z8DCqnf4SZE0t96Jp1S/exec"
+                                            id="reach-form">
+                                            <!-- deploy-id="AKfycbzwOjmsQVu-_Qmu2RxhtZi3je5uZje_FigIpUHJMx1e2xm0_Z8DCqnf4SZE0t96Jp1S"  -->
+                                      <div class="mb-3">
+                                        <label for="recipient-name" class="col-form-label">Name</label>
+                                        <input type="text" class="form-control" name="Name" id="recipient-name" placeholder="Name..." required>
+                                      </div>
+                                      <div class="mb-3">
+                                        <label for="recipient-email" class="col-form-label ">Email</label>
+                                        <input type="email" class="form-control" name="Email" id="recipient-email" placeholder="E-mail..." required>
+                                      </div>
+                                      <div class="mb-3">
+                                        <label for="recipient-number" class="col-form-label shadow-sm">Mobile No.</label >
+                                        <input type="number" class="form-control" name="Mobile No." id="recipient-number" placeholder="Phone number..." required>
+                                      </div>
+                                      <div class="mb-3">
+                                        <label for="message-text" class="row-form-label" aria-required="true"> Message</label>
+                                        <textarea class="form-control" id="message-text" name="Message" maxlength="500" placeholder="Type your message here..."></textarea>
+                                      </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="submit reset" class="btn btn-primary" onclick="isValid();">Connect <i class="bi bi-send-fill"></i></button>
+                                    </div>
+                                </form>
+                                </div>
+                              </div>
+                            </div>
+                              <div class="container footer-left">
+                            <div class="row align-items-center">
+                                <div class=" col-lg-12 p-3 ">
+                                <div class="icons align-content-end">
+                        <a href="#"><i class="bi bi-globe2"></i></a>
+                        <a href="https://www.linkedin.com/in/arpit37"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://www.github.com/Anshul37"><i class="bi bi-github"></i></a>
+                        <!-- <a href="#"><i class="bi bi-slack"></i></a> -->
+                        <a href="https://twitter.com/home"><i class="bi bi-twitter"></i></a>
+                        <a href="mailto:arpitgpandey37@gmail.com"><i class="bi bi-envelope"></i></a>
+                                </div>
+                          </div>
+                            </div>
+                            </div>
+                    <div class="footer-left align-content-center">
+                        <p>Hand Crafted by Arpit Pandey &copy; 2023 </p>
+                    </div>
+                </div>
+                    
+                    </footer>
+                </section>
+                    <!-- <script src="script.js"></script> -->
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+                    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+                </script>
+                <script>
+                    function isValid() {
+                    debugger
+                    var regexemail = /^[a-z0-9._]+@[a-z.-]+\.[a-zA-Z]{2,}$/;
+                // var regexpassword = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$/;
+                    var regexnumber = /^[0-9]{10,10}$/;
+                  
+                // var password = document.getElementById('password').value; // Fix the ID here
+                    var email = document.getElementById('recipient-email').value;
+                    var number = document.getElementById('recipient-number').value;
+                // console.log(number , email);
+                  
+                    if (regexnumber.test(number) && regexemail.test(email) ) {
+                        document.getElementById("reach-form").reset();
+
+                        window.location.href = "website.html";
+                        return false;
+
+                    } else if ( !regexemail.test(email) ){
+                        alert("Invalid email address. Please enter a valid email address.")
+                        return false;
+                    }
+                        else  {
+                        alert("Invalid Mobile Number. Please enter a valid 10 digit mobile number. ");
+                        return false; // Prevent form submission
+                    }
+                    showdata();
+                    }
+
+                </script>
+
+</body>
+
+</html>
