@@ -16,6 +16,9 @@
     <link href="webisite.css" rel="stylesheet">
     <script src="./script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- Add this to your HTML file -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
     <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet"> -->
 
@@ -66,23 +69,32 @@
   <div class="container ">
     <div class="row   ">
     <div class="col-xl-12 rounded-3 header-paragraph ">
-      <div class="description  ">
-        <!-- <img src="home-img-photo.jpg" class="rounded-3 mb-3" width="75%" alt="Profile Image"> -->
+      <!-- <div class="description text-center pe-lg-5 ">
+        <!-- <img src="home-img-photo.jpg" class="rounded-3 mb-3" width="75%" alt="Profile Image"> 
         <h1  >
           Hello, I'm <strong>Arpit</strong>
         </h1>
         
           <!-- <div class="text-center align-content-center  mt-5 ">
-          <p> -->
-            <h3 class="text-light mt-3"><strong>"</strong>I am results-driven software engineer with a knack for turning complex ideas into elegant solutions.
+          <p> 
+            <h3 class="text-primary-emphasis mt-3"><strong>"</strong>I am results-driven software engineer with a knack for turning complex ideas into elegant solutions.
               From coding to debugging, I thrive on the challenges of creating seamless, efficient software.
               Explore my portfolio to see the code that powers my passion for innovation<strong>"</strong></h3>
-          </div>
-          <div class="text-center align-bottom mt-5 mb-5">
-            
-            <button class="btn btn-outline-light btn-md  bg-light" ><a href="#About" >Know More <i class="bi bi-search"></i></a></button>     
-            <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap" >Reach Me <i class="bi bi-chat-text"></i></button>
-          </div>
+          </div> -->
+          <div class="bg-image"></div>
+
+          <div class="bg-text">
+            <h1>I am Arpit Pandey</h1>
+            <div class="mt-5 text-center">
+            <h5>"I am results-driven software engineer with a knack for turning complex ideas into elegant solutions.
+              From coding to debugging, I thrive on the challenges of creating seamless, efficient software.
+              Explore my portfolio to see the code that powers my passion for innovation"</h5></div>
+              <div class="text-center align-bottom mt-3 mb-3">
+                
+                <button class="btn btn-outline-light btn-md  bg-light" ><a href="#About" >Know More <i class="bi bi-search"></i></a></button>     
+                <!-- <button type="submit " class="btn btn-primary" onclick="isValid()">Connect <i class="bi bi-send-fill"></i></button> -->
+              </div>
+            </div>
         </div>
       </div>
     </div>
@@ -95,9 +107,9 @@
         <div class="container ">
             <div class="bg-gradient">
               <div class="row bg-secondary-subtle  rounded-3">
-                <div class="col-md-6 mt-3">
+                <div class="col-md-6 mt-4">
                     <div class="text-lg-center">
-                        <img src="/Assests/new-Profile.jpeg" class="rounded-3 mb-3" width="80%" alt="Profile Image">
+                        <img src="/Assests/new-Profile.jpeg" class="rounded-3 mb-4 " width="80%" alt="Profile Image">
                     </div>
                       </div>
                       <div class="col-sm-6 bg-secondary-subtle  mt-5">
@@ -188,7 +200,7 @@
                       <img class="postcard__img" src="Assests/Web capture_23-11-2023_165256_127.0.0.1.jpeg" alt="Portfolio Project" />
                         </a>
                           <div class="postcard__text t-dark">
-                            <h1 class="postcard__title red"><a href="#"> Portfolio Website</a></h1>
+                            <h1 class="postcard__title red"><a href="https://arpitpandey.netlify.app/"> Portfolio Website</a></h1>
                             <div class="postcard__subtitle small">
                               <!-- <time datetime="2020-05-25 12:00:00">
                           <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
@@ -212,7 +224,7 @@
                         <!-- <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li> -->
                         <li class="tag__item play red">
                           <!-- <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a> -->
-                          <a href="#"><i class="fas fa-play bi bi-laptop mr-2"></i> Check it Out !</a>
+                          <a href="https://arpitpandey.netlify.app/"><i class="fas fa-play bi bi-laptop mr-2"></i> Check it Out !</a>
 
                         </li>
                       </ul>
@@ -264,9 +276,9 @@
                       </div>
                       <ul class="postcard__tagbox">
                         <li class="tag__item"><i class="bi bi-github mr-2 mt-5"><a href="https://github.com/Anshul37"> GitHub Repo</a></i></li>
-                        <!-- <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li> 
+                        <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li> 
                         <li class="tag__item play red">
-                          <!-- <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a> 
+                          <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a> 
                           <a href="#"><i class="fas fa-play bi bi-laptop mr-2"></i> Check it Out !</a> 
 
                         </li>
@@ -347,10 +359,9 @@
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                   </div>
                                   <div class="modal-body shadow-sm">
-                                    <!-- <form action="https://script.google.com/macros/s/http://127.0.0.1:5500/website.htmlexec" method="post"> -->
+                                    <!-- <form action="https://script.google.com/macros/s/http://127.0.0.1:5500/index.htmlexec" method="post"> -->
                                     <form class="p-md-3"
                                             method="POST"
-                                            action="https://script.google.com/macros/s/AKfycbzwOjmsQVu-_Qmu2RxhtZi3je5uZje_FigIpUHJMx1e2xm0_Z8DCqnf4SZE0t96Jp1S/exec"
                                             id="reach-form">
                                             <!-- deploy-id="AKfycbzwOjmsQVu-_Qmu2RxhtZi3je5uZje_FigIpUHJMx1e2xm0_Z8DCqnf4SZE0t96Jp1S"  -->
                                       <div class="mb-3">
@@ -363,16 +374,16 @@
                                       </div>
                                       <div class="mb-3">
                                         <label for="recipient-number" class="col-form-label shadow-sm">Mobile No.</label >
-                                        <input type="number" class="form-control" name="Mobile No." id="recipient-number" placeholder="Phone number..." required>
+                                        <input type="number" class="form-control" name="Mobile" id="recipient-number" placeholder="Phone number..." required>
                                       </div>
                                       <div class="mb-3">
-                                        <label for="message-text" class="row-form-label" aria-required="true"> Message</label>
+                                        <label for="message-text" class="col-form-label " aria-required="true"> Message</label>
                                         <textarea class="form-control" id="message-text" name="Message" maxlength="500" placeholder="Type your message here..."></textarea>
                                       </div>
                                     </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                        <button type="submit reset" class="btn btn-primary" onclick="isValid();">Connect <i class="bi bi-send-fill"></i></button>
+                                    <div class="modal-footer ">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Go Back</button>
+                                        <button type="submit reset" class="btn btn-primary" onclick="valid()">Connect <i class="bi bi-send-fill"></i></button>
                                     </div>
                                 </form>
                                 </div>
@@ -399,41 +410,9 @@
                     
                     </footer>
                 </section>
-                    <!-- <script src="script.js"></script> -->
+                    <script src="script.js" defer></script> 
                     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
                     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
                 </script>
-                <script>
-                    function isValid() {
-                    debugger
-                    var regexemail = /^[a-z0-9._]+@[a-z.-]+\.[a-zA-Z]{2,}$/;
-                // var regexpassword = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$/;
-                    var regexnumber = /^[0-9]{10,10}$/;
-                  
-                // var password = document.getElementById('password').value; // Fix the ID here
-                    var email = document.getElementById('recipient-email').value;
-                    var number = document.getElementById('recipient-number').value;
-                // console.log(number , email);
-                  
-                    if (regexnumber.test(number) && regexemail.test(email) ) {
-                        document.getElementById("reach-form").reset();
-
-                        window.location.href = "index.html";
-                        return false;
-
-                    } else if ( !regexemail.test(email) ){
-                        alert("Invalid email address. Please enter a valid email address.")
-                        return false;
-                    }
-                        else  {
-                        alert("Invalid Mobile Number. Please enter a valid 10 digit mobile number. ");
-                        return false; // Prevent form submission
-                    }
-                    showdata();
-                    }
-
-                </script>
-
 </body>
-
 </html>

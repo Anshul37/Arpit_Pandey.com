@@ -1,3 +1,7 @@
 {
-    "github-enterprise.uri": "https://https"
+    "github-enterprise.uri": "https://https",
+    "cSpell.words": [
+        "showdata"
+    ],
+    "liveServer.settings.port": 5501
 }

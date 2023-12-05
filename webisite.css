@@ -730,14 +730,14 @@ a, a:hover {
   }
 /*header style*/
 .header-paragraph{
-	background-image: url('/Assests/home-img-photo-new.jpg');
+	background-image: url('/Assests/pexels-danny-meneses-943096.jpg');
   min-height: 90vh;
   margin-top: 10vh;
   margin-bottom:  3vh;
-  align-self:center;
+  align-self: center;
 	background-size: cover;
 	background-position: center;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 .overlay{
 	min-height: 100%;
@@ -750,7 +750,7 @@ a, a:hover {
     top: 30%;
     margin: auto;
     padding: 2em;
-    text-align: center;
+    text-align: start;
     height: auto;
 }
 .description h1{
@@ -767,13 +767,14 @@ a, a:hover {
 .description h3{
   color:#ffffff;
   font-size: 30px;
-  margin-bottom: 25px;
-  background: #fcfcfc;
+  margin-bottom: 10px;
+  background: #ffffff06;
   /* background: linear-gradient( 45deg, #fcfcfc,#0c0b0b, #fcfcfc , #0c0b0b , #fcfcfc); */
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   margin-bottom: auto;
   margin-top: auto;
+  padding: 10px;
 }
 
 .description p{
@@ -783,7 +784,7 @@ a, a:hover {
 	line-height: 1.5;
   text-shadow: #8f9296;
   /* text-align: center !important; */
-  align-items: center;
+  align-items: baseline;
 }
 
 .description button{
@@ -814,3 +815,40 @@ a, a:hover {
 
 
 /* LOADER */
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  /* background-image: url("photographer.jpg"); */
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
