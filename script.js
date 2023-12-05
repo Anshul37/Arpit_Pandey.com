@@ -25,9 +25,9 @@ debugger;
         'Content-Type': 'text/plain;charset=utf-8',
     }
 }).then(response => {
-    console.log("success:", response);
+    console.log("success", response);
 }).catch(err => {
-    console.log("Error:" + err);
+    console.log("Error" + err);
 });
         fetch(scriptURL, { method: 'POST', body: data})
         console.log(data)
